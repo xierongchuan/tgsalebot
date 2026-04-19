@@ -1,7 +1,36 @@
-# ---> Composer
-composer.phar
+```
+# Dependencies
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+pip-log.txt
+pip-delete-this-directory.txt
 
-# Commit your application's lock file https://getcomposer.org/doc/01-basic-usage.md#commit-your-composer-lock-file-to-version-control
-# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
-# composer.lock
+# Environment variables
+.env
+.env.local
+.env.*
 
+# Database
+*.db
+*.db-journal
+
+# Logs
+*.log
+
+# Coverage reports
+.coverage
+htmlcov/
+.coverage.*
+.cache
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+```
